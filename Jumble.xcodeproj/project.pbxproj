@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7005AAB6F5BCB7CA59B0C5 /* Pods_JumbleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384A700C12C1E4E7E1F4941E /* Pods_JumbleUITests.framework */; };
+		1A503FDB21AF55BA00E48096 /* SearchJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A503FDA21AF55BA00E48096 /* SearchJobViewController.swift */; };
+		4167C8A5BC0D99A1B08F45BD /* Pods_JumbleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB06ABCD997462059318CD55 /* Pods_JumbleTests.framework */; };
+		AD48BD86B1C1FA85CFDD8535 /* Pods_Jumble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C150F2BA859E06459980DAAD /* Pods_Jumble.framework */; };
+		B7003F9821A0ED8300EAF3E1 /* DetailedJobPostingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7003F9721A0ED8300EAF3E1 /* DetailedJobPostingVC.swift */; };
+		B7EBC750219E83F000C4B915 /* JobPosting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EBC74F219E83F000C4B915 /* JobPosting.swift */; };
+		F0065063218BCD3100A6BF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0065062218BCD3100A6BF2C /* AppDelegate.swift */; };
+		F0065065218BCD3100A6BF2C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0065064218BCD3100A6BF2C /* SignInViewController.swift */; };
+		F0065068218BCD3100A6BF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0065066218BCD3100A6BF2C /* Main.storyboard */; };
+		F006506A218BCD3200A6BF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0065069218BCD3200A6BF2C /* Assets.xcassets */; };
+		F006506D218BCD3200A6BF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F006506B218BCD3200A6BF2C /* LaunchScreen.storyboard */; };
+		F0065078218BCD3200A6BF2C /* JumbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0065077218BCD3200A6BF2C /* JumbleTests.swift */; };
+		F0065083218BCD3300A6BF2C /* JumbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0065082218BCD3300A6BF2C /* JumbleUITests.swift */; };
+		F0065091218BD05E00A6BF2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0065090218BD05E00A6BF2C /* GoogleService-Info.plist */; };
+		F01E99352191313B00B16A9B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E99342191313B00B16A9B /* UserProfileViewController.swift */; };
+		F01E99392191319400B16A9B /* CreateJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E99382191319400B16A9B /* CreateJobViewController.swift */; };
+		F0552628218BDDDE00B5272F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0552627218BDDDE00B5272F /* SignUpViewController.swift */; };
+		F07CAD69218D4CC900FC46C4 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07CAD68218D4CC900FC46C4 /* MainPageViewController.swift */; };
+		F0D91DB921B23061007A9A8D /* YourJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D91DB821B23061007A9A8D /* YourJobsViewController.swift */; };
+		F0D91DBB21B23506007A9A8D /* UserJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D91DBA21B23506007A9A8D /* UserJobCell.swift */; };
+		F0D91DBD21B25124007A9A8D /* InterestedUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D91DBC21B25124007A9A8D /* InterestedUsersTableViewController.swift */; };
+		F0D91DBF21B25A8A007A9A8D /* InterestedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D91DBE21B25A8A007A9A8D /* InterestedUser.swift */; };
+		F0D91DC121B3184F007A9A8D /* InterestedUserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D91DC021B3184F007A9A8D /* InterestedUserInformationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0065074218BCD3200A6BF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0065057218BCD3100A6BF2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F006505E218BCD3100A6BF2C;
+			remoteInfo = Jumble;
+		};
+		F006507F218BCD3300A6BF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0065057218BCD3100A6BF2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F006505E218BCD3100A6BF2C;
+			remoteInfo = Jumble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A503FDA21AF55BA00E48096 /* SearchJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchJobViewController.swift; sourceTree = "<group>"; };
+		23E53D6FB58A250552E08E31 /* Pods-JumbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumbleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JumbleTests/Pods-JumbleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		384A700C12C1E4E7E1F4941E /* Pods_JumbleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumbleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C90060626623CE452C0A94 /* Pods-JumbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumbleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JumbleUITests/Pods-JumbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		754133213B09D431B50D4BF7 /* Pods-Jumble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jumble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jumble/Pods-Jumble.debug.xcconfig"; sourceTree = "<group>"; };
+		7C34D635FDFF04C6A81A7F79 /* Pods-JumbleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumbleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JumbleUITests/Pods-JumbleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9862617C47F849DE9344A91B /* Pods-Jumble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jumble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jumble/Pods-Jumble.release.xcconfig"; sourceTree = "<group>"; };
+		B7003F9721A0ED8300EAF3E1 /* DetailedJobPostingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedJobPostingVC.swift; sourceTree = "<group>"; };
+		B7EBC74F219E83F000C4B915 /* JobPosting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPosting.swift; sourceTree = "<group>"; };
+		C150F2BA859E06459980DAAD /* Pods_Jumble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jumble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB06ABCD997462059318CD55 /* Pods_JumbleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumbleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDE7DE6006A0BB6D6121AC3 /* Pods-JumbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumbleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JumbleTests/Pods-JumbleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F006505F218BCD3100A6BF2C /* Jumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0065062218BCD3100A6BF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0065064218BCD3100A6BF2C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F0065067218BCD3100A6BF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0065069218BCD3200A6BF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F006506C218BCD3200A6BF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F006506E218BCD3200A6BF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0065073218BCD3200A6BF2C /* JumbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0065077218BCD3200A6BF2C /* JumbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumbleTests.swift; sourceTree = "<group>"; };
+		F0065079218BCD3300A6BF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F006507E218BCD3300A6BF2C /* JumbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0065082218BCD3300A6BF2C /* JumbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumbleUITests.swift; sourceTree = "<group>"; };
+		F0065084218BCD3300A6BF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0065090218BD05E00A6BF2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F01E99342191313B00B16A9B /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		F01E99382191319400B16A9B /* CreateJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobViewController.swift; sourceTree = "<group>"; };
+		F0552627218BDDDE00B5272F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F07CAD68218D4CC900FC46C4 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		F0D91DB821B23061007A9A8D /* YourJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourJobsViewController.swift; sourceTree = "<group>"; };
+		F0D91DBA21B23506007A9A8D /* UserJobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJobCell.swift; sourceTree = "<group>"; };
+		F0D91DBC21B25124007A9A8D /* InterestedUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestedUsersTableViewController.swift; sourceTree = "<group>"; };
+		F0D91DBE21B25A8A007A9A8D /* InterestedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestedUser.swift; sourceTree = "<group>"; };
+		F0D91DC021B3184F007A9A8D /* InterestedUserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestedUserInformationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F006505C218BCD3100A6BF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD48BD86B1C1FA85CFDD8535 /* Pods_Jumble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0065070218BCD3200A6BF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4167C8A5BC0D99A1B08F45BD /* Pods_JumbleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F006507B218BCD3300A6BF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7005AAB6F5BCB7CA59B0C5 /* Pods_JumbleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A6C8C1B709349C3EA4536C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C150F2BA859E06459980DAAD /* Pods_Jumble.framework */,
+				CB06ABCD997462059318CD55 /* Pods_JumbleTests.framework */,
+				384A700C12C1E4E7E1F4941E /* Pods_JumbleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3392B0C12D707DBABC02B33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				754133213B09D431B50D4BF7 /* Pods-Jumble.debug.xcconfig */,
+				9862617C47F849DE9344A91B /* Pods-Jumble.release.xcconfig */,
+				23E53D6FB58A250552E08E31 /* Pods-JumbleTests.debug.xcconfig */,
+				DBDE7DE6006A0BB6D6121AC3 /* Pods-JumbleTests.release.xcconfig */,
+				59C90060626623CE452C0A94 /* Pods-JumbleUITests.debug.xcconfig */,
+				7C34D635FDFF04C6A81A7F79 /* Pods-JumbleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0065056218BCD3100A6BF2C = {
+			isa = PBXGroup;
+			children = (
+				F0065061218BCD3100A6BF2C /* Jumble */,
+				F0065076218BCD3200A6BF2C /* JumbleTests */,
+				F0065081218BCD3300A6BF2C /* JumbleUITests */,
+				F0065060218BCD3100A6BF2C /* Products */,
+				A3392B0C12D707DBABC02B33 /* Pods */,
+				49A6C8C1B709349C3EA4536C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0065060218BCD3100A6BF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F006505F218BCD3100A6BF2C /* Jumble.app */,
+				F0065073218BCD3200A6BF2C /* JumbleTests.xctest */,
+				F006507E218BCD3300A6BF2C /* JumbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0065061218BCD3100A6BF2C /* Jumble */ = {
+			isa = PBXGroup;
+			children = (
+				F01E993A219131B500B16A9B /* ViewControllers */,
+				F0065062218BCD3100A6BF2C /* AppDelegate.swift */,
+				F0065066218BCD3100A6BF2C /* Main.storyboard */,
+				F0065069218BCD3200A6BF2C /* Assets.xcassets */,
+				F006506B218BCD3200A6BF2C /* LaunchScreen.storyboard */,
+				F006506E218BCD3200A6BF2C /* Info.plist */,
+				F0065090218BD05E00A6BF2C /* GoogleService-Info.plist */,
+			);
+			path = Jumble;
+			sourceTree = "<group>";
+		};
+		F0065076218BCD3200A6BF2C /* JumbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0065077218BCD3200A6BF2C /* JumbleTests.swift */,
+				F0065079218BCD3300A6BF2C /* Info.plist */,
+			);
+			path = JumbleTests;
+			sourceTree = "<group>";
+		};
+		F0065081218BCD3300A6BF2C /* JumbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0065082218BCD3300A6BF2C /* JumbleUITests.swift */,
+				F0065084218BCD3300A6BF2C /* Info.plist */,
+			);
+			path = JumbleUITests;
+			sourceTree = "<group>";
+		};
+		F01E993A219131B500B16A9B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7003F9721A0ED8300EAF3E1 /* DetailedJobPostingVC.swift */,
+				1A503FDA21AF55BA00E48096 /* SearchJobViewController.swift */,
+				B7EBC74F219E83F000C4B915 /* JobPosting.swift */,
+				F01E99342191313B00B16A9B /* UserProfileViewController.swift */,
+				F01E99382191319400B16A9B /* CreateJobViewController.swift */,
+				F0552627218BDDDE00B5272F /* SignUpViewController.swift */,
+				F0065064218BCD3100A6BF2C /* SignInViewController.swift */,
+				F07CAD68218D4CC900FC46C4 /* MainPageViewController.swift */,
+				F0D91DB821B23061007A9A8D /* YourJobsViewController.swift */,
+				F0D91DBA21B23506007A9A8D /* UserJobCell.swift */,
+				F0D91DBC21B25124007A9A8D /* InterestedUsersTableViewController.swift */,
+				F0D91DBE21B25A8A007A9A8D /* InterestedUser.swift */,
+				F0D91DC021B3184F007A9A8D /* InterestedUserInformationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F006505E218BCD3100A6BF2C /* Jumble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0065087218BCD3300A6BF2C /* Build configuration list for PBXNativeTarget "Jumble" */;
+			buildPhases = (
+				7BE7E6ABC5C3655D63435E84 /* [CP] Check Pods Manifest.lock */,
+				F006505B218BCD3100A6BF2C /* Sources */,
+				F006505C218BCD3100A6BF2C /* Frameworks */,
+				F006505D218BCD3100A6BF2C /* Resources */,
+				4AFD6E29D8CABD789A9920DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jumble;
+			productName = Jumble;
+			productReference = F006505F218BCD3100A6BF2C /* Jumble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0065072218BCD3200A6BF2C /* JumbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F006508A218BCD3300A6BF2C /* Build configuration list for PBXNativeTarget "JumbleTests" */;
+			buildPhases = (
+				EEAB8EE3C1E9E7FF97C8AD00 /* [CP] Check Pods Manifest.lock */,
+				F006506F218BCD3200A6BF2C /* Sources */,
+				F0065070218BCD3200A6BF2C /* Frameworks */,
+				F0065071218BCD3200A6BF2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0065075218BCD3200A6BF2C /* PBXTargetDependency */,
+			);
+			name = JumbleTests;
+			productName = JumbleTests;
+			productReference = F0065073218BCD3200A6BF2C /* JumbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F006507D218BCD3300A6BF2C /* JumbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F006508D218BCD3300A6BF2C /* Build configuration list for PBXNativeTarget "JumbleUITests" */;
+			buildPhases = (
+				DFB2D702990DE7463F6D9E78 /* [CP] Check Pods Manifest.lock */,
+				F006507A218BCD3300A6BF2C /* Sources */,
+				F006507B218BCD3300A6BF2C /* Frameworks */,
+				F006507C218BCD3300A6BF2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0065080218BCD3300A6BF2C /* PBXTargetDependency */,
+			);
+			name = JumbleUITests;
+			productName = JumbleUITests;
+			productReference = F006507E218BCD3300A6BF2C /* JumbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0065057218BCD3100A6BF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Team Jumble";
+				TargetAttributes = {
+					F006505E218BCD3100A6BF2C = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					F0065072218BCD3200A6BF2C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F006505E218BCD3100A6BF2C;
+					};
+					F006507D218BCD3300A6BF2C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = F006505E218BCD3100A6BF2C;
+					};
+				};
+			};
+			buildConfigurationList = F006505A218BCD3100A6BF2C /* Build configuration list for PBXProject "Jumble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0065056218BCD3100A6BF2C;
+			productRefGroup = F0065060218BCD3100A6BF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F006505E218BCD3100A6BF2C /* Jumble */,
+				F0065072218BCD3200A6BF2C /* JumbleTests */,
+				F006507D218BCD3300A6BF2C /* JumbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F006505D218BCD3100A6BF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F006506D218BCD3200A6BF2C /* LaunchScreen.storyboard in Resources */,
+				F0065091218BD05E00A6BF2C /* GoogleService-Info.plist in Resources */,
+				F006506A218BCD3200A6BF2C /* Assets.xcassets in Resources */,
+				F0065068218BCD3100A6BF2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0065071218BCD3200A6BF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F006507C218BCD3300A6BF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AFD6E29D8CABD789A9920DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jumble/Pods-Jumble-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jumble/Pods-Jumble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE7E6ABC5C3655D63435E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jumble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB2D702990DE7463F6D9E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumbleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEAB8EE3C1E9E7FF97C8AD00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumbleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F006505B218BCD3100A6BF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07CAD69218D4CC900FC46C4 /* MainPageViewController.swift in Sources */,
+				B7EBC750219E83F000C4B915 /* JobPosting.swift in Sources */,
+				F01E99352191313B00B16A9B /* UserProfileViewController.swift in Sources */,
+				F0D91DC121B3184F007A9A8D /* InterestedUserInformationViewController.swift in Sources */,
+				F01E99392191319400B16A9B /* CreateJobViewController.swift in Sources */,
+				F0552628218BDDDE00B5272F /* SignUpViewController.swift in Sources */,
+				F0065065218BCD3100A6BF2C /* SignInViewController.swift in Sources */,
+				1A503FDB21AF55BA00E48096 /* SearchJobViewController.swift in Sources */,
+				F0065063218BCD3100A6BF2C /* AppDelegate.swift in Sources */,
+				F0D91DBB21B23506007A9A8D /* UserJobCell.swift in Sources */,
+				B7003F9821A0ED8300EAF3E1 /* DetailedJobPostingVC.swift in Sources */,
+				F0D91DBF21B25A8A007A9A8D /* InterestedUser.swift in Sources */,
+				F0D91DB921B23061007A9A8D /* YourJobsViewController.swift in Sources */,
+				F0D91DBD21B25124007A9A8D /* InterestedUsersTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F006506F218BCD3200A6BF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0065078218BCD3200A6BF2C /* JumbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F006507A218BCD3300A6BF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0065083218BCD3300A6BF2C /* JumbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0065075218BCD3200A6BF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F006505E218BCD3100A6BF2C /* Jumble */;
+			targetProxy = F0065074218BCD3200A6BF2C /* PBXContainerItemProxy */;
+		};
+		F0065080218BCD3300A6BF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F006505E218BCD3100A6BF2C /* Jumble */;
+			targetProxy = F006507F218BCD3300A6BF2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0065066218BCD3100A6BF2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0065067218BCD3100A6BF2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F006506B218BCD3200A6BF2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F006506C218BCD3200A6BF2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0065085218BCD3300A6BF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0065086218BCD3300A6BF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0065088218BCD3300A6BF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754133213B09D431B50D4BF7 /* Pods-Jumble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "team-jumble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F0065089218BCD3300A6BF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9862617C47F849DE9344A91B /* Pods-Jumble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "team-jumble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F006508B218BCD3300A6BF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E53D6FB58A250552E08E31 /* Pods-JumbleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david-lietjauw.com.JumbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jumble.app/Jumble";
+			};
+			name = Debug;
+		};
+		F006508C218BCD3300A6BF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDE7DE6006A0BB6D6121AC3 /* Pods-JumbleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david-lietjauw.com.JumbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jumble.app/Jumble";
+			};
+			name = Release;
+		};
+		F006508E218BCD3300A6BF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C90060626623CE452C0A94 /* Pods-JumbleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david-lietjauw.com.JumbleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jumble;
+			};
+			name = Debug;
+		};
+		F006508F218BCD3300A6BF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C34D635FDFF04C6A81A7F79 /* Pods-JumbleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david-lietjauw.com.JumbleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jumble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F006505A218BCD3100A6BF2C /* Build configuration list for PBXProject "Jumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0065085218BCD3300A6BF2C /* Debug */,
+				F0065086218BCD3300A6BF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0065087218BCD3300A6BF2C /* Build configuration list for PBXNativeTarget "Jumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0065088218BCD3300A6BF2C /* Debug */,
+				F0065089218BCD3300A6BF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F006508A218BCD3300A6BF2C /* Build configuration list for PBXNativeTarget "JumbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F006508B218BCD3300A6BF2C /* Debug */,
+				F006508C218BCD3300A6BF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F006508D218BCD3300A6BF2C /* Build configuration list for PBXNativeTarget "JumbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F006508E218BCD3300A6BF2C /* Debug */,
+				F006508F218BCD3300A6BF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0065057218BCD3100A6BF2C /* Project object */;
+}
